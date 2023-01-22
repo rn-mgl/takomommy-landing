@@ -70,7 +70,7 @@ const Offers = () => {
                       l-l:text-xl"
           >
             different sizes and quantity <br /> for your family, your friends <br /> or take it all,
-            we won't judge
+            we {`won't`} judge
           </p>
         </div>
 
