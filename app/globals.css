@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .cstm-flex-col {
+    @apply flex flex-col items-center justify-center;
+  }
+
+  .cstm-flex-row {
+    @apply flex flex-row items-center justify-center;
+  }
+
+  .cstm-grdbg-blk-sc-mn {
+    @apply bg-gradient-to-br from-blk-sc to-blk-mn;
+  }
+
+  .cstm-cheat-bg-ylw {
+    @apply bg-gradient-to-r from-ylw to-ylw bg-no-repeat;
+  }
+
+  .cstm-grdbg-red-mn-sc {
+    @apply bg-gradient-to-br from-red-mn to-red-sc;
+  }
+
+  .cstm-grdbg-ylw-orng {
+    @apply bg-gradient-to-r from-ylw to-orng;
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
+
+p {
+  position: relative;
+  z-index: 1;
+}
