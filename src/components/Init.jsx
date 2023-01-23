@@ -24,7 +24,9 @@ const Init = () => {
                   l-s:text-7xl
                   l-l:text-8xl"
         >
-          A TASTE THAT YOU WILL ALWAYS COME BACK TO
+          A TASTE THAT YOU WILL
+          <br />
+          ALWAYS COME BACK TO
         </p>
         <p
           className="text-wht text-xs font-body
