@@ -6,7 +6,8 @@ import bg from "../../public/takoyaki-tupper.png";
 const Init = () => {
   return (
     <div
-      className={`cstm-flex-col w-full p-5 cstm-grdbg-blk-sc-mn max-h-screen h-screen text-center gap-5 overflow-hidden relative snap-start l-s:px-20`}
+      id="hero"
+      className={`cstm-flex-col w-full p-5 cstm-grdbg-blk-sc-mn max-h-screen h-screen text-center gap-5 overflow-hidden relative l-s:px-20`}
     >
       <Image
         className="w-36

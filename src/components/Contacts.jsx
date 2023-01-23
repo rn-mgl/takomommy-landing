@@ -10,7 +10,8 @@ import takoyaki from "../../public/takoyaki.png";
 const Contacts = () => {
   return (
     <div
-      className="cstm-flex-col h-auto min-h-screen snap-start p-5 gap-5 text-center relative overflow-hidden
+      id="contacts"
+      className="cstm-flex-col h-auto min-h-screen p-5 gap-5 text-center relative overflow-hidden
                 t:px-20"
     >
       <div

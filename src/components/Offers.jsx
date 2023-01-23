@@ -6,7 +6,10 @@ import events from "../../public/events.png";
 
 const Offers = () => {
   return (
-    <div className="cstm-flex-col min-h-screen h-auto relative snap-start w-full p-5 gap-10 l-s:px-20">
+    <div
+      id="offers"
+      className="cstm-flex-col min-h-screen h-auto relative w-full p-5 gap-10 l-s:px-20"
+    >
       <div
         className="w-full cstm-flex-col text-center
                   t:cstm-flex-row t:gap-5 t:text-left

@@ -7,7 +7,8 @@ const Prices = async () => {
 
   return (
     <div
-      className="cstm-flex-col h-auto min-h-screen snap-start cstm-grdbg-blk-sc-mn p-5 text-center gap-5 relative overflow-hidden
+      id="prices"
+      className="cstm-flex-col h-auto min-h-screen cstm-grdbg-blk-sc-mn p-5 text-center gap-5 relative overflow-hidden
                 t:px-20"
     >
       <p

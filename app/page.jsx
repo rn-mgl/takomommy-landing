@@ -6,7 +6,7 @@ import Prices from "../src/components/Prices";
 
 export default function Home() {
   return (
-    <div className="h-screen overflow-y-auto snap-y snap-proximity">
+    <div>
       <Init />
       <Offers />
       <Prices />
